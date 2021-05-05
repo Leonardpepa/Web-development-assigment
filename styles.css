@@ -62,3 +62,18 @@ body {
   right: 100px;
   opacity: 1;
 }
+
+.features-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 4rem;
+  margin: 1rem;
+}
+
+.feature {
+  text-align: center;
+}
+.icon {
+  color: #02475e;
+}
