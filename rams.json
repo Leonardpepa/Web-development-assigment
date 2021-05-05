@@ -1,0 +1,38 @@
+[
+    {
+        "name" : "HyperX Fury",
+        "price" : 45,
+        "characteristics" : {
+            "capacity" : "4GB",
+            "baseClock" : "2666MHz"
+        },
+        "poster_path" : "images/HyperX Fury.jpeg"
+    },
+    {
+        "name" : "G.Skill RipjawsV",
+        "price" : 100,
+        "characteristics" : {
+            "capacity" : "8GB",
+            "baseClock" : "2666MHz"
+        },
+        "poster_path" : "images/G.Skill RipjawsV.jpeg"
+    },
+    {
+        "name" : "Corsair Vengeance RGB Pro",
+        "price" : 180,
+        "characteristics" : {
+            "capacity" : "8GB",
+            "baseClock" : "3200MHz"
+        },
+        "poster_path" : "images/Corsair Vengeance RGB Pro.jpeg"
+    },
+    {
+        "name" : "G.Skill TridentZ Neo ",
+        "price" : 250,
+        "characteristics" : {
+            "capacity" : "16GB",
+            "baseClock" : "3600MHz"
+        },
+        "poster_path" : "images/G.Skill TridentZ Neo .jpeg"
+    }
+]

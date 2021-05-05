@@ -1,0 +1,82 @@
+[
+    {
+        "name" : "Gigabyte GeForce GTX 1660 Super 6GB OC",
+        "description" : "Η Gigabyte GeForce GTX 1660 Super 6GB OC βασίζεται στην αρχιτεκτονική NVIDIA Turing με ενσωματωμένη μνήμη 6GB GDDR6, ταχύτητα επεξεργαστή 1785MHz και σύστημα ψύξης Windforce 2X.",
+        "price" : 574.98,
+        "characteristics" : {
+            "Processor Manufacturer" : "Nvidia",
+            "Chipset Model" : "GeForce GTX 1660 Super",
+            "Interface" : "PCI Express x16 3.0",
+            "Base Clock" : "1785 MHz", 
+            "Maximum Resolution" : "7680x4320 pixels",
+            "Memory capacity" : "6 GB",
+            "Memory type" : "GDDR6",
+            "Memeory clock" : "14000 MHz"  
+        },
+        "poster_path" : "images/Gigabyte GeForce GTX 1660 Super 6GB OC.jpeg"
+    },
+    {
+        "name" : "MSI GeForce RTX 2060 6GB Ventus XS OC",
+        "description" : "Κάρτα γραφικών με μνήμη 6GB DDR6, έως 1710Mhz ταχύτητα επεξεργαστή, τρεις θύρες DisplayPort και 1 θύρα HDMI 2.0. Υποστηρίζει PCI-E x16 3.0 και μπορεί και μεταδίδει ταυτόχρονα σε τέσσερις οθόνες. Διαθέτει DirectX 12 και η μέγιστη ανάλυση είναι 7680x4320. Απαιτεί τροφοδοτικό 500W και το μήκος της φτάνει τα 205mm",
+        "price" : 800,
+        "characteristics" : {
+            "Processor Manufacturer" : "Nvidia",
+            "Chipset Model" : "GeForce RTX 2060",
+            "Interface" : "PCI Express x16 3.0",
+            "Base Clock" : "1710 MHz", 
+            "Maximum Resolution" : "7680x4320 pixels",
+            "Memory capacity" : "6 GB",
+            "Memory type" : "GDDR6",
+            "Memeory clock" : "14000 MHz"  
+        },
+        "poster_path" : "images/MSI GeForce RTX 2060 6GB Ventus XS OC.jpeg"
+    },
+    {
+        "name" : "Gigabyte GeForce GTX1050 Ti 4GB OC",
+        "description" : "Κάρτα γραφικών με μνήμη 4GB GDDR5, έως 1455Mhz ταχύτητα επεξεργαστή, μία θύρα DisplayPort, μία θύρα HDMI 2.0 και μια θύρα DVI-D. Υποστηρίζει μέχρι τρεις οθόνες για ταυτόχρονη μετάδοση. Μέγιστη ανάλυση είναι 7680x4320. Απαιτεί τροφοδοτικό 300W και το μήκος της φτάνει τα 191mm",
+        "price" : 200,
+        "characteristics" : {
+            "Processor Manufacturer" : "Nvidia",
+            "Chipset Model" : "GeForce GTX 1050 Ti",
+            "Interface" : "PCI Express x16 3.0",
+            "Base Clock" : "1316 MHz", 
+            "Maximum Resolution" : "7680x4320 pixels",
+            "Memory capacity" : "4 GB",
+            "Memory type" : "GDDR5",
+            "Memeory clock" : "7008 MHz"  
+        },
+        "poster_path" : "images/Gigabyte GeForce GTX1050 Ti 4GB OC.jpeg"
+    },
+    {
+        "name" : "XFX Radeon RX 580 8GB GTS XXX Edition",
+        "description" : "Κάρτα γραφικών με μνήμη 8GB DDR5, έως 1386Mhz ταχύτητα επεξεργαστή, τρεις θύρες DisplayPort, 1 θύρα HDMI 2.0 και θύρα DVI-D. Υποστηρίζει PCI-E 3.0, διαθέτει FreeSync 2 και DirectX 12 και η μέγιστη ανάλυση είναι 4096 x 2160. Απαιτεί τροφοδοτικό 500W και το μήκος της φτάνει τα 270mm",
+        "price" : 230,
+        "characteristics" : {
+            "Processor Manufacturer" : "AMD",
+            "Chipset Model" : "Radeon RX 580",
+            "Interface" : "PCI Express x16 3.0",
+            "Base Clock" : "1366 MHz", 
+            "Maximum Resolution" : "4096x2160 pixels",
+            "Memory capacity" : "8 GB",
+            "Memory type" : "GDDR5",
+            "Memeory clock" : "8000 MHz"  
+        },
+        "poster_path" : "images/XFX Radeon RX 580 8GB GTS XXX Edition.jpeg"
+    },
+    {
+        "name" : "MSI GeForce GTX 1660 Super 6GB Ventus XS OC",
+        "description" : "Mid-range κάρτα γραφικών με μνήμη 6GB DDR6, έως 1815Mhz ταχύτητα επεξεργαστή, τρεις θύρες DisplayPort και μία θύρα HDMI 2.0. Υποστηρίζει μέχρι τέσσερις οθόνες, διαθέτει G-Sync και η μέγιστη ανάλυση είναι 7680x4320. Απαιτεί τροφοδοτικό 450W και το μήκος της φτάνει τα 247mm",
+        "price" : 560,
+        "characteristics" : {
+            "Processor Manufacturer" : "Nvidia",
+            "Chipset Model" : "GeForce GTX 1660 Super",
+            "Interface" : "PCI Express x16 3.0",
+            "Base Clock" : "1815 MHz", 
+            "Maximum Resolution" : "7680x4320 pixels",
+            "Memory capacity" : "6 GB",
+            "Memory type" : "GDDR6",
+            "Memeory clock" : "8000 MHz"  
+        },
+        "poster_path" : "images/MSI GeForce GTX 1660 Super 6GB Ventus XS OC.jpeg"
+    }
+]

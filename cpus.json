@@ -1,0 +1,87 @@
+[
+    {
+        "name" : "AMD Ryzen 3 3200G",
+        "description" : "τετραπύρηνος επεξεργαστής σχεδιασμένος για μητρικές κάρτες AM4. Προσφέρει αυξημένη απόδοση σε σύγκριση με τον προκάτοχό του, με αυτό το μοντέλο να έχει βασική ταχύτητα  3,6GHz και μέγιστη ταχύτητα 4,0GHz.Επιπλέον, διαθέτει 4MB L3 cache, υποστήριξη για dual channel 2933 MHz DDR4 RAM και ενσωματωμένα...",
+        "price" : 150,
+        "characteristics" : {
+            "family" : "Ryzen 3",
+            "microArchitecture" : "Zen+",
+            "socket" : "AM4",
+            "cores" : 4,
+            "threads" : 4,
+            "base clock" : "3,6GHz"
+        },
+        "poster_path" : "images/AMD Ryzen 3 3200G.jpeg"
+    },
+    {
+        "name" : "Intel Core i5-10400F",
+        "description" : "Διαθέτοντας 6 πυρήνες και 12 threads, ο Core i5-10400F έχει συχνότητα λειτουργίας 2.9 GHz με μέγιστη ταχύτητα στα 4.3 GHz. Είναι συμβατός με το socket FCLGA 1200, διαθέτει Intel Smart Cache 12MB και υποστηρίζει μνήμες DDR4-2666 καθώς και μνήμη Intel Optane. Διαθέτει ψύκτρα CPU, αλλά δεν διαθέτει ενσωματωμένο κύκλωμα γραφικών, που σημαίνει ότι...",
+        "price" : 250,
+        "characteristics" : {
+            "family" : "Core i5",
+            "microArchitecture" : "Comet Lake",
+            "socket" : "1200",
+            "cores" : 6,
+            "threads" : 12,
+            "base clock" : "2,9GHz"
+        },
+        "poster_path" : "images/Intel Core i5-10400F.jpeg"
+    },
+    {
+        "name" : "Intel Core i3-10100",
+        "description" : "Διαθέτοντας 6 πυρήνες και 12 threads, ο Core i5-10400F έχει συχνότητα λειτουργίας 2.9 GHz με μέγιστη ταχύτητα στα 4.3 GHz. Είναι συμβατός με το socket FCLGA 1200, διαθέτει Intel Smart Cache 12MB και υποστηρίζει μνήμες DDR4-2666 καθώς και μνήμη Intel Optane. Διαθέτει ψύκτρα CPU, αλλά δεν διαθέτει ενσωματωμένο κύκλωμα γραφικών, που σημαίνει ότι...",
+        "price" : 135,
+        "characteristics" : {
+            "family" : "Core i3",
+            "microArchitecture" : "Comet Lake",
+            "socket" : "1200",
+            "cores" : 6,
+            "threads" : 12,
+            "base clock" : "3,6GHz"
+        },
+        "poster_path" : "images/Intel Core i3-10100.jpeg"
+    },
+    {
+        "name" : "AMD Ryzen 5 3600",
+        "description" : "Κατασκευασμένος με αρχιτεκτονική 7nm, οι 6 πυρήνες του επεξεργαστή αναβαθμίζουν το multitasking. Η τεχνολογία AMD SenseMI μαθαίνει και προσαρμόζεται στην καθημερινότητά σας για να σας προσφέρει τις αληθινές επιδόσεις των 4 πυρήνων σε ό,τι κι αν κάνετε. Εξοπλισμένος με ξεκλείδωτο πολλαπλασιαστή, σας δίνει τη δυνατότητα να φτάσετε τις",
+        "price" : 248,
+        "characteristics" : {
+            "family" : "Ryzen 5",
+            "microArchitecture" : "Zen2",
+            "socket" : "AM4",
+            "cores" : 6,
+            "threads" : 12,
+            "base clock" : "3,6GHz"
+        },
+        "poster_path" : "images/AMD Ryzen 5 3600.jpeg"
+    },
+    {
+        "name" : "AMD Ryzen 7 2700X",
+        "description" : "H υψηλότερη multiprocessing απόδοση σε έναν mainstream υπολογιστή.O Ryzen 7 2700x είναι ένα ακόμα μεγάλο βήμα για την AMD. Bελτιωμένοι αλγόριθμοι εκτοξεύουν την απόδοση σε εφαρμογές που εκμεταλλεύονται τους πολλαπλούς πυρήνες του επεξεργαστή, ενώ η αυξημένη συχνότητα και η μειωμένη καθυστέρηση μνήμης παρέχουν το απόλυτο όπλο στις..",
+        "price" : 360,
+        "characteristics" : {
+            "family" : "Ryzen 7",
+            "microArchitecture" : "Zen+",
+            "socket" : "AM4",
+            "cores" : 8,
+            "threads" : 16,
+            "base clock" : "3,7GHz"
+        },
+        "poster_path" : "images/AMD Ryzen 7 2700X.jpeg"
+    },
+    {
+        "name" : "Intel Core i7-10700F",
+        "description" : "Διαθέτοντας οκτώ πυρήνες και δεκαέξι threads, ο Core i7-10700F έχει συχνότητα λειτουργίας 2,9 GHz με μέγιστη ταχύτητα στα 4,8 GHz. Είναι συμβατός με το socket LGA 1200, διαθέτει Intel Smart Cache 16MB και υποστηρίζει μνήμες DDR4-2933 καθώς και μνήμη Intel Optane. Δεν διαθέτει ψύκτρα CPU, αλλά ούτε και ενσωματωμένο κύκλωμα γραφικών, που σημαίνει ότι θα...",
+        "price" : 375,
+        "characteristics" : {
+            "family" : "Core i7",
+            "microArchitecture" : "Comet Lake",
+            "socket" : "1200",
+            "cores" : 8,
+            "threads" : 16,
+            "base clock" : "2,9GHz"
+        },
+        "poster_path" : "images/Intel Core i7-10700F.jpeg"
+    }
+
+]

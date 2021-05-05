@@ -1,0 +1,42 @@
+[
+    {
+        "name" : "Be Quiet System Power 9",
+        "price" : 100,
+        "characteristics" : {
+            "type" : "ATX",
+            "power" : "600 W",
+            "certification" : "80 plus bronze"
+        }, 
+        "poster_path": "images/Be Quiet System Power 9.jpeg"
+    },
+    {
+        "name" : "Corsair CV Series CV550",
+        "price" : 65,
+        "characteristics" : {
+            "type" : "ATX",
+            "power" : "600 W",
+            "certification" : "80 plus bronze"
+        }, 
+        "poster_path": "images/Corsair CV Series CV550.jpeg"
+    },
+    {
+        "name" : "Corsair TX-M Series",
+        "price" : 130,
+        "characteristics" : {
+            "type" : "ATX",
+            "power" : "750 W",
+            "certification" : "80 plus gold"
+        }, 
+        "poster_path": "images/Corsair TX-M Series.jpeg"
+    },
+    {
+        "name" : "Corsair AX Series",
+        "price" : 300,
+        "characteristics" : {
+            "type" : "ATX",
+            "power" : "1000 W",
+            "certification" : "80 plus Titanium"
+        }, 
+        "poster_path": "images/Corsair AX Series.jpeg"
+    }
+]

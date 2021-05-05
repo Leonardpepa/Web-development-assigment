@@ -1,0 +1,24 @@
+[
+        {
+          "name" : "Western Digital Blue",
+          "capacity" : "1TB",
+          "speed" : "7200rpm",
+          "connection" : "SATA III",
+          "poster_path" : "images/Western Digital Blue.jpeg" 
+        },
+        {
+            "name" : "Western Digital red",
+            "capacity" : "2TB",
+            "speed" : "7200rpm",
+            "connection" : "SATA III",
+            "poster_path" : "images/Western Digital red.jpeg"  
+          },
+          {
+            "name" : "Western Digital purple",
+            "capacity" : "4TB",
+            "speed" : "7200rpm",
+            "connection" : "SATA III",
+            "poster_path" : "images/Western Digital purple.jpeg"  
+          }
+    
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "name" : "Cougar MX410 Mesh-G RGB",
+        "price" : 60,
+        "characteristics" : {
+            "size" : "Midi Tower",
+            "motherboards" : "ATX, mini ITX, micro ATX"
+        },
+        "poster_path" : "images/Cougar MX410 Mesh-G RGB.jpeg"
+    },
+    {
+        "name" : "NZXT H510 Black Red",
+        "price" : 100,
+        "characteristics" : {
+            "size" : "Midi Tower",
+            "motherboards" : "ATX, mini ITX, micro ATX"
+        },
+        "poster_path" : "images/NZXT H510 Black Red.jpeg"
+    },
+    {
+        "name" : "Cougar MX330-X",
+        "price" : 35,
+        "characteristics" : {
+            "size" : "Midi Tower",
+            "motherboards" : "ATX, mini ITX, micro ATX"
+        },
+        "poster_path" : "images/Cougar MX330-X.jpeg"
+    },
+    {
+        "name" : "CoolerMaster Cosmos C700P",
+        "price" : 160,
+        "characteristics" : {
+            "size" : "Midi Tower",
+            "motherboards" : "ATX, mini ITX, micro ATX"
+        },
+        "poster_path" : "images/CoolerMaster Cosmos C700P.jpeg"
+    }
+
+]
