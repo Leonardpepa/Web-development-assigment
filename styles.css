@@ -198,4 +198,29 @@ body {
     padding: 1rem;
     margin: 1rem;
   }
+
+  #build {
+    padding: 0;
+    margin: 0;
+  }
+
+  .card {
+    max-width: 10rem;
+    width: 100%;
+    height: auto;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+  .card-details {
+    font-size: 0.5rem;
+  }
+
+  .card-btn {
+    font-size: 1rem;
+  }
+  .card:hover {
+    transform: none;
+  }
 }
