@@ -67,7 +67,9 @@ body {
   right: 100px;
   opacity: 1;
 }
-
+#features {
+  padding: 2rem;
+}
 .features-container {
   display: flex;
   justify-content: space-evenly;
