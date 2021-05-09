@@ -14,9 +14,13 @@ body {
   align-items: center;
   padding: 0 4.5rem;
   background-color: #02475e;
-  width: auto;
 }
 
+.logo {
+  width: 100%;
+  max-width: 15%;
+  height: auto;
+}
 .nav-bar {
   list-style: none;
   display: flex;
@@ -199,20 +203,22 @@ footer .icon:hover {
 
 @media (max-width: 1500px) {
   .banner-container {
+    position: unset;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
   }
   .title {
+    position: unset;
     padding: 1rem;
     font-size: 2.5rem;
-    position: unset;
   }
 
   .banner-img {
     position: unset;
     width: 100%;
-    max-width: 50%;
+    max-width: 30%;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
   }
@@ -222,17 +228,12 @@ footer .icon:hover {
   body {
     min-width: 100vw;
   }
-
-  .logo {
-    width: 100%;
-    max-width: 30%;
-  }
-
   .nav-bar {
     padding: 0;
     margin: 0;
     font-size: 1.5rem;
     width: 100vw;
+    justify-content: space-evenly;
   }
 
   .nav-link {
@@ -276,17 +277,12 @@ footer .icon:hover {
     font-size: 1rem;
     max-width: max-content;
   }
-
-  .logo {
-    width: 100%;
-    max-width: 30%;
-  }
-
   .nav-bar {
     padding: 0;
     margin: 0;
     font-size: 1rem;
     width: 100vw;
+    justify-content: space-evenly;
   }
 
   .nav-link {
@@ -348,7 +344,7 @@ footer .icon:hover {
     margin: 2rem auto;
   }
   .about-text {
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    padding: 1.5rem;
     line-height: 1.2;
     text-align: justify;
   }
