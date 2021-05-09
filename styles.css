@@ -218,7 +218,7 @@ footer .icon:hover {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1080px) {
   body {
     min-width: 100vw;
   }
