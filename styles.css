@@ -209,6 +209,13 @@ footer .icon:hover {
 }
 
 @media (max-width: 1500px) {
+  #header {
+    margin-bottom: 2rem;
+  }
+
+  .features-container {
+    margin-top: 2rem;
+  }
   .banner-container {
     position: unset;
     display: flex;
