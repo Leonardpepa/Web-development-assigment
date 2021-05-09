@@ -197,6 +197,99 @@ footer .icon:hover {
   color: #333;
 }
 
+@media (max-width: 1500px) {
+  .banner-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .title {
+    padding: 1rem;
+    font-size: 2.5rem;
+    position: unset;
+  }
+
+  .banner-img {
+    position: unset;
+    width: 100%;
+    max-width: 50%;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 980px) {
+  body {
+    max-width: fit-content;
+  }
+
+  #header {
+    padding: 0;
+    margin: 0;
+    max-width: max-content;
+  }
+
+  .logo {
+    width: 100%;
+    max-width: 30%;
+  }
+
+  .nav-bar {
+    min-width: 100vw;
+  }
+
+  .banner-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: fit-content;
+  }
+  .title {
+    font-size: 2rem;
+    position: unset;
+  }
+
+  .banner-img {
+    position: unset;
+    width: 100%;
+    max-width: 70%;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .features-container {
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  #build {
+    padding: 0;
+    margin: 0;
+  }
+
+  .card {
+    max-width: 10rem;
+    width: 100%;
+    height: auto;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+  .card-details {
+    font-size: 0.5rem;
+  }
+
+  .card-btn {
+    font-size: 1rem;
+  }
+  .uni-logo {
+    padding: 0;
+    margin: 2rem auto;
+  }
+}
+
 @media (max-width: 600px) {
   body {
     max-width: fit-content;
@@ -280,7 +373,7 @@ footer .icon:hover {
     margin: 2rem auto;
   }
   .about-text {
-    padding: 0.5rem;
+    padding: 1rem;
     line-height: 1.2;
     text-align: justify;
   }
