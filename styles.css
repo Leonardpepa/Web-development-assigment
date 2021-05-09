@@ -280,7 +280,7 @@ footer .icon:hover {
     margin: 2rem auto;
   }
   .about-text {
-    padding: 0.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     line-height: 1.2;
     text-align: justify;
   }
