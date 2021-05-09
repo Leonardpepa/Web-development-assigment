@@ -31,6 +31,10 @@ body {
   padding: 1rem 3rem;
 }
 
+.nav-link:link {
+  color: white;
+}
+
 .nav-link:visited {
   color: white;
 }
