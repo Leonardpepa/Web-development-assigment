@@ -149,7 +149,7 @@ body {
 
 .uni-logo {
   height: auto;
-  max-width: 30%;
+  max-width: 25%;
   display: block;
   width: 50%;
   padding: 1rem;
@@ -162,12 +162,6 @@ body {
   font-size: 1.5rem;
   text-align: justify;
 }
-
-.about-text {
-  display: inline-block;
-  float: inline-start;
-}
-
 footer {
   padding: 2.5rem;
   background-color: #02475e;
@@ -201,7 +195,6 @@ footer .icon:hover {
 
 @media (max-width: 600px) {
   body {
-    min-width: 320px;
     max-width: fit-content;
   }
 
@@ -278,12 +271,18 @@ footer .icon:hover {
   .card:hover {
     transform: none;
   }
+  .uni-logo {
+    padding: 0;
+    margin: 2rem auto;
+  }
   .about-text {
     padding: 0.5rem;
     line-height: 1.2;
     text-align: justify;
   }
-
+  footer {
+    padding: 1rem;
+  }
   footer .icon {
     margin: 0.5rem;
   }
