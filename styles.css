@@ -2,10 +2,12 @@ html {
   scroll-behavior: smooth;
   font-size: 16px;
 }
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
   font-family: "Montserrat", sans-serif;
   background-color: #02475e;
 }
@@ -56,7 +58,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #02475e;
-  height: 60vh;
+  height: 70vh;
 }
 
 .title {
@@ -64,7 +66,7 @@ body {
   bottom: 150px;
   left: 150px;
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 3.5rem;
   padding: 1rem 3rem;
   color: white;
 }
@@ -219,7 +221,6 @@ footer .icon:hover {
   .banner-container {
     position: unset;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
   }
@@ -232,7 +233,7 @@ footer .icon:hover {
   .banner-img {
     position: unset;
     width: 100%;
-    max-width: 25%;
+    max-width: 35%;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
   }
