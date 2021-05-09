@@ -218,7 +218,7 @@ footer .icon:hover {
   .banner-img {
     position: unset;
     width: 100%;
-    max-width: 30%;
+    max-width: 25%;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
   }
@@ -255,7 +255,7 @@ footer .icon:hover {
   .banner-img {
     position: unset;
     width: 100%;
-    max-width: 50%;
+    max-width: 30%;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
   }
