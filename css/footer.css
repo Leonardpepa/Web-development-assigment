@@ -1,0 +1,41 @@
+footer {
+  padding: 2.5rem;
+  background-color: #02475e;
+  color: white;
+  text-align: center;
+}
+
+footer .icon {
+  color: white;
+  margin: 1rem 2rem;
+}
+
+footer p {
+  margin-top: 1rem;
+}
+
+footer .icon:hover {
+  transform: scale(1.15);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.fa-linkedin:hover,
+.fa-twitter-square:hover {
+  color: #2867b2;
+}
+.fa-github:hover {
+  color: #333;
+}
+
+@media (max-width: 600px) {
+  footer {
+    padding: 1rem;
+  }
+  footer .icon {
+    margin: 0.5rem;
+  }
+  footer p {
+    font-size: 1rem;
+  }
+}

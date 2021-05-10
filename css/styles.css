@@ -2,54 +2,12 @@ html {
   scroll-behavior: smooth;
   font-size: 16px;
 }
-* {
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-body {
   font-family: "Montserrat", sans-serif;
   background-color: #02475e;
-}
-#header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 4.5rem;
-  margin-bottom: 1rem;
-  background-color: #02475e;
-}
-
-.logo {
-  width: 100%;
-  max-width: 15%;
-  height: auto;
-}
-.nav-bar {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 1.5rem;
-}
-
-.nav-link {
-  text-decoration: none;
-  margin: 0 1.5rem;
-  padding: 1rem 3rem;
-}
-
-.nav-link:link {
-  color: white;
-}
-
-.nav-link:visited {
-  color: white;
-}
-.nav-link:hover {
-  background-color: white;
-  color: black;
-  transition: all 0.4s;
 }
 
 .banner-container {
@@ -58,7 +16,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #02475e;
-  height: 70vh;
+  height: 60vh;
 }
 
 .title {
@@ -66,7 +24,7 @@ body {
   bottom: 150px;
   left: 150px;
   font-weight: bold;
-  font-size: 3.5rem;
+  font-size: 4rem;
   padding: 1rem 3rem;
   color: white;
 }
@@ -114,7 +72,8 @@ body {
   justify-content: space-between;
   height: 31.25rem;
   width: 21rem;
-  border: 1px solid black;
+  border: 1px solid none;
+  border-radius: 15px;
   background-color: aliceblue;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -128,6 +87,8 @@ body {
 .card-img {
   width: 100%;
   height: auto;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .card-btn {
@@ -179,48 +140,15 @@ body {
   font-size: 1.5rem;
   text-align: justify;
 }
-footer {
-  padding: 2.5rem;
-  background-color: #02475e;
-  color: white;
-  text-align: center;
-}
-
-footer .icon {
-  color: white;
-  margin: 1rem 2rem;
-}
-
-footer p {
-  margin-top: 1rem;
-}
-
-footer .icon:hover {
-  transform: scale(1.15);
-  transition: all 0.3s;
-  cursor: pointer;
-}
-
-.fa-linkedin:hover,
-.fa-twitter-square:hover {
-  color: #2867b2;
-}
-
-.fa-github:hover {
-  color: #333;
-}
 
 @media (max-width: 1500px) {
-  #header {
-    margin-bottom: 2rem;
-  }
-
   .features-container {
     margin-top: 2rem;
   }
   .banner-container {
     position: unset;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
   }
@@ -233,7 +161,7 @@ footer .icon:hover {
   .banner-img {
     position: unset;
     width: 100%;
-    max-width: 35%;
+    max-width: 25%;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
   }
@@ -243,19 +171,6 @@ footer .icon:hover {
   body {
     min-width: 100vw;
   }
-  .nav-bar {
-    padding: 0;
-    margin: 0;
-    font-size: 1.5rem;
-    width: 100vw;
-    justify-content: space-evenly;
-  }
-
-  .nav-link {
-    margin: 0;
-    padding: 0 1rem;
-  }
-
   .banner-container {
     flex-direction: column;
     align-items: center;
@@ -285,26 +200,6 @@ footer .icon:hover {
   body {
     max-width: fit-content;
   }
-
-  #header {
-    padding: 0;
-    margin: 0;
-    font-size: 1rem;
-    max-width: max-content;
-  }
-  .nav-bar {
-    padding: 0;
-    margin: 0;
-    font-size: 1rem;
-    width: 100vw;
-    justify-content: space-evenly;
-  }
-
-  .nav-link {
-    margin: 0;
-    padding: 0 1rem;
-  }
-
   .banner-container {
     flex-direction: column;
     align-items: center;
@@ -362,14 +257,5 @@ footer .icon:hover {
     padding: 1.5rem;
     line-height: 1.2;
     text-align: justify;
-  }
-  footer {
-    padding: 1rem;
-  }
-  footer .icon {
-    margin: 0.5rem;
-  }
-  footer p {
-    font-size: 1rem;
   }
 }
