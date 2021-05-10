@@ -1,6 +1,6 @@
 const buildItBtns = document.getElementsByClassName("card-btn");
 const amdBtn = buildItBtns[0];
-const intelBtn = buildItBtns[0];
+const intelBtn = buildItBtns[1];
 
 const cpus = [];
 const hdds = [];
