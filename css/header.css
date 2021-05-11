@@ -20,8 +20,9 @@ body {
 
 .logo {
   width: 100%;
-  max-width: 15%;
+  max-width: 8%;
   height: auto;
+  cursor: pointer;
 }
 .nav-bar {
   list-style: none;

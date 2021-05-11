@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+#main {
+  background-color: white;
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 2rem;
+}
+
+.content-container {
+  width: 100%;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 300px));
+  padding: 1.5rem;
+  place-content: center;
+  transition: all 0.3s;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #02475e;
+  color: white;
+  margin: 0 auto;
+  border: #02475e;
+}
+
+.card-img {
+  width: 99%;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  padding: 2rem;
+}
+
+.details {
+  padding: 1.5rem;
+}
+
+.name {
+  margin-bottom: 1rem;
+}
+
+li {
+  list-style: none;
+  padding: 0.5rem 0 0 0.5rem;
+}
+
+h2 {
+  padding-left: 1rem;
+  background-color: #02475e;
+  color: white;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+h2::before {
+  content: "+";
+  margin-right: 0.5rem;
+}
+
+input {
+  margin-top: 1rem;
+}
+
+label {
+  padding: 0.5rem;
+}
