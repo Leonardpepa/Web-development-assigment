@@ -21,7 +21,7 @@ body {
 
 .content-container {
   width: 100%;
-  display: grid;
+  display: none;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(150px, 300px));
   padding: 1.5rem;
@@ -65,6 +65,12 @@ h2 {
   color: white;
   margin: 1rem;
   padding: 1rem;
+  cursor: pointer;
+}
+.helper {
+  height: 1rem;
+  width: 100%;
+  background-color: white;
 }
 
 h2::before {
