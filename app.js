@@ -10,8 +10,8 @@ const navigateToHome = () => {
 const openBuildPage = () => {
   buildItBtns.forEach((btn) => {
     btn.addEventListener("click", (e) => {
-      window.open("build.html", `${e.target.name}`);
       window.close();
+      window.open("build.html", `${e.target.name}`);
     });
   });
 };

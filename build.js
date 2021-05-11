@@ -11,6 +11,7 @@ const configureTitle = () => {
 const navigateToHome = () => {
   logo.addEventListener("click", () => {
     window.location.replace("index.html");
+    window.close();
   });
 };
 
