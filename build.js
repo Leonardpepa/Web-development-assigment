@@ -7,8 +7,8 @@ const container = document.querySelector(".content-container");
 const h2 = document.querySelector("h2");
 
 h2.addEventListener("click", () => {
-  container.style.display =
-    container.style.display === "none" ? "grid" : "none";
+  h2.classList.toggle("active");
+  container.classList.toggle("active");
 });
 
 const configureTitle = () => {
