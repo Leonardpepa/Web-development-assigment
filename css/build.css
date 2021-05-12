@@ -10,6 +10,7 @@ body {
 
 #main {
   background-color: white;
+  padding-bottom: 1rem;
 }
 
 .title {
@@ -38,6 +39,7 @@ body {
   color: white;
   margin: 0 auto;
   border: #02475e;
+  border-radius: 10px;
 }
 
 .card-img {

@@ -16,8 +16,8 @@ const openBuildPage = () => {
   });
 };
 
-navigateToHome();
 openBuildPage();
+navigateToHome();
 
 cpus;
 hdds;

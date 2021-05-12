@@ -1,9 +1,9 @@
 const logo = document.querySelector(".logo");
 const main = document.getElementById("main");
 const title = document.createElement("h1");
-const category = document.querySelector(".category");
+const category = document.querySelectorAll(".category");
 const container = document.querySelector(".content-container");
-const h2 = document.querySelector("h2");
+
 const navLinks = document.querySelectorAll(".nav-link");
 
 if (!window.name) {
@@ -11,15 +11,17 @@ if (!window.name) {
   window.close();
 }
 
-h2.addEventListener("click", () => {
-  h2.classList.toggle("active");
-  container.classList.toggle("active");
+category.forEach((categ) => {
+  categ.addEventListener("click", (e) => {
+    e.target.classList.toggle("active");
+    categ.children[1] && categ.children[1].classList.toggle("active");
+  });
 });
 
 const configureTitle = () => {
   title.innerText = window.name.toUpperCase();
   title.classList.add("title");
-  main.insertBefore(title, category);
+  main.insertBefore(title, main.firstChild);
 };
 
 const navigateToHome = () => {
@@ -37,6 +39,8 @@ const navigateNavBar = () => {
     });
   });
 };
+
+const createContent = () => {};
 
 navigateToHome();
 navigateNavBar();
