@@ -26,3 +26,4 @@ motherboards;
 rams;
 powerSupplys;
 cases;
+console.log("test");

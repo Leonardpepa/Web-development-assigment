@@ -35,6 +35,7 @@ body {
 .card {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   background-color: #02475e;
   color: white;
   margin: 0 auto;
