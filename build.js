@@ -24,7 +24,7 @@ const configureTitle = () => {
 
 const navigateToHome = () => {
   logo.addEventListener("click", () => {
-    window.location.replace("index.html");
+    window.open("index.html");
     window.close();
   });
 };
