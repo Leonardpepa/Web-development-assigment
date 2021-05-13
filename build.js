@@ -6,17 +6,22 @@ const container = document.querySelector(".content-container");
 
 const navLinks = document.querySelectorAll(".nav-link");
 const dataArray = [];
-dataArray.push(cpus);
-dataArray.push(motherboards);
-dataArray.push(cases);
-dataArray.push(powerSupplys);
-dataArray.push(rams);
-dataArray.push(hdds);
-dataArray.push(gpus);
+
+const mapData = (name) => {
+  dataArray.push(cpus);
+  dataArray.push(motherboards);
+  dataArray.push(cases);
+  dataArray.push(powerSupplys);
+  dataArray.push(rams);
+  dataArray.push(hdds);
+  dataArray.push(gpus);
+};
 
 if (!window.name) {
   window.location.replace("index.html");
   window.close();
+} else {
+  mapData(window.name);
 }
 
 category.forEach((categ) => {
