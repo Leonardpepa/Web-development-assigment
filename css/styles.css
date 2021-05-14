@@ -32,7 +32,7 @@ body {
 .banner-img {
   position: absolute;
   width: 100%;
-  max-width: 32%;
+  max-width: 30%;
   height: auto;
   right: 100px;
   opacity: 1;
@@ -161,7 +161,7 @@ body {
   .banner-img {
     position: unset;
     width: 100%;
-    max-width: 25%;
+    max-width: 30%;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
   }
