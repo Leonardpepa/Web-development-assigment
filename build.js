@@ -7,22 +7,45 @@ const container = document.querySelector(".content-container");
 const navLinks = document.querySelectorAll(".nav-link");
 const dataArray = [];
 
+const render = () => {
+  if (!window.name) {
+    window.open("index.html");
+    window.close();
+  } else {
+    navigateToHome();
+    navigateNavBar();
+    mapData(window.name);
+    configureTitle();
+    displayAllData();
+  }
+};
+
 const mapData = (name) => {
-  dataArray.push(cpus);
-  dataArray.push(motherboards);
+  const filteredCpus = [];
+  const filteredMotherbaords = [];
+
+  setTimeout(() => {
+    cpus.forEach((cpu) => {
+      cpu.name[0].toUpperCase() === name[0].toUpperCase() &&
+        filteredCpus.push(cpu);
+    });
+  }, 50);
+
+  setTimeout(() => {
+    motherboards.forEach((board) => {
+      board.characteristics.model[0].toUpperCase() === name[0].toUpperCase() &&
+        filteredMotherbaords.push(board);
+    });
+  }, 50);
+
+  dataArray.push(filteredCpus);
+  dataArray.push(filteredMotherbaords);
   dataArray.push(cases);
   dataArray.push(powerSupplys);
   dataArray.push(rams);
   dataArray.push(hdds);
   dataArray.push(gpus);
 };
-
-if (!window.name) {
-  window.location.replace("index.html");
-  window.close();
-} else {
-  mapData(window.name);
-}
 
 category.forEach((categ) => {
   categ.addEventListener("click", (e) => {
@@ -60,12 +83,12 @@ const createContent = (list, index) => {
   contentContainer.classList.add("content-container");
   setTimeout(() => {
     list.forEach((item) => {
-      createContentCard(item, contentContainer, index);
+      createCard(item, contentContainer, index);
     });
   }, 100);
 };
 
-const createContentCard = (item, contentContainer, index) => {
+const createCard = (item, contentContainer, index) => {
   const card = document.createElement("div");
   card.classList.add("card");
 
@@ -117,7 +140,4 @@ const displayAllData = () => {
   }
 };
 
-displayAllData();
-navigateToHome();
-navigateNavBar();
-configureTitle();
+render();

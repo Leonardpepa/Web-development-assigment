@@ -13,7 +13,6 @@ const readData = (array, path) => {
       data.forEach((item) => array.push(item));
       return data;
     });
-  return array;
 };
 
 readData(cpus, "cpus");

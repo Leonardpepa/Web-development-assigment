@@ -4,7 +4,7 @@
     "price": 70,
     "characteristics": {
       "size": "ATX",
-      "model": "Ryzen",
+      "model": "AMD Ryzen",
       "socket": "AM4",
       "ram type": "DDR4"
     },
@@ -15,7 +15,7 @@
     "price": 165,
     "characteristics": {
       "size": "ATX",
-      "model": "Ryzen",
+      "model": "AMD Ryzen",
       "socket": "AM4",
       "ram type": "DDR4"
     },
@@ -26,7 +26,7 @@
     "price": 300,
     "characteristics": {
       "size": "ATX",
-      "model": "Ryzen",
+      "model": "AMD Ryzen",
       "socket": "AM4",
       "ram type": "DDR4"
     },

@@ -18,12 +18,3 @@ const openBuildPage = () => {
 
 openBuildPage();
 navigateToHome();
-
-cpus;
-hdds;
-gpus;
-motherboards;
-rams;
-powerSupplys;
-cases;
-console.log("test");
