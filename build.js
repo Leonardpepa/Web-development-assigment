@@ -17,6 +17,7 @@ const render = () => {
     mapData(window.name);
     configureTitle();
     displayAllData();
+    toggleCategory();
   }
 };
 
@@ -47,14 +48,16 @@ const mapData = (name) => {
   dataArray.push(gpus);
 };
 
-category.forEach((categ) => {
-  categ.addEventListener("click", (e) => {
-    if (e.target.classList[0] === "category-title") {
-      e.target.classList.toggle("active");
-      categ.children[1] && categ.children[1].classList.toggle("active");
-    }
+const toggleCategory = () => {
+  category.forEach((categ) => {
+    categ.addEventListener("click", (e) => {
+      if (e.target.classList[0] === "category-title") {
+        e.target.classList.toggle("active");
+        categ.children[1] && categ.children[1].classList.toggle("active");
+      }
+    });
   });
-});
+};
 
 const configureTitle = () => {
   title.innerText = window.name.toUpperCase();
