@@ -13,14 +13,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 4.5rem;
+  padding: 1rem 4rem;
   margin-bottom: 1rem;
   background-color: #02475e;
 }
 
 .logo {
   width: 100%;
-  max-width: 8%;
+  max-width: 9%;
   height: auto;
   cursor: pointer;
 }

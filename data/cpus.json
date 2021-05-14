@@ -9,7 +9,7 @@
       "socket": "AM4",
       "cores": 4,
       "threads": 4,
-      "baseClock": "3,6GHz"
+      "base clock": "3,6GHz"
     },
     "poster_path": "images/AMD Ryzen 3 3200G.jpeg"
   },
@@ -23,7 +23,7 @@
       "socket": "1200",
       "cores": 6,
       "threads": 12,
-      "baseClock": "2,9GHz"
+      "base clock": "2,9GHz"
     },
     "poster_path": "images/Intel Core i5-10400F.jpeg"
   },
@@ -37,7 +37,7 @@
       "socket": "1200",
       "cores": 6,
       "threads": 12,
-      "baseClock": "3,6GHz"
+      "base clock": "3,6GHz"
     },
     "poster_path": "images/Intel Core i3-10100.jpeg"
   },
@@ -51,7 +51,7 @@
       "socket": "AM4",
       "cores": 6,
       "threads": 12,
-      "baseClock": "3,6GHz"
+      "base clock": "3,6GHz"
     },
     "poster_path": "images/AMD Ryzen 5 3600.jpeg"
   },
@@ -65,7 +65,7 @@
       "socket": "AM4",
       "cores": 8,
       "threads": 16,
-      "baseClock": "3,7GHz"
+      "base clock": "3,7GHz"
     },
     "poster_path": "images/AMD Ryzen 7 2700X.jpeg"
   },
@@ -79,7 +79,7 @@
       "socket": "1200",
       "cores": 8,
       "threads": 16,
-      "baseClock": "2,9GHz"
+      "base clock": "2,9GHz"
     },
     "poster_path": "images/Intel Core i7-10700F.jpeg"
   }
