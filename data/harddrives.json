@@ -1,24 +1,32 @@
 [
-        {
-          "name" : "Western Digital Blue",
-          "capacity" : "1TB",
-          "speed" : "7200rpm",
-          "connection" : "SATA III",
-          "poster_path" : "images/Western Digital Blue.jpeg" 
-        },
-        {
-            "name" : "Western Digital red",
-            "capacity" : "2TB",
-            "speed" : "7200rpm",
-            "connection" : "SATA III",
-            "poster_path" : "images/Western Digital red.jpeg"  
-          },
-          {
-            "name" : "Western Digital purple",
-            "capacity" : "4TB",
-            "speed" : "7200rpm",
-            "connection" : "SATA III",
-            "poster_path" : "images/Western Digital purple.jpeg"  
-          }
-    
+  {
+    "name": "Western Digital Blue",
+    "price": 40,
+    "characteristics": {
+      "capacity": "1TB",
+      "speed": "7200rpm",
+      "connection": "SATA III"
+    },
+    "poster_path": "images/Western Digital Blue.jpeg"
+  },
+  {
+    "name": "Western Digital red",
+    "price": 75,
+    "characteristics": {
+      "capacity": "2TB",
+      "speed": "7200rpm",
+      "connection": "SATA III"
+    },
+    "poster_path": "images/Western Digital red.jpeg"
+  },
+  {
+    "name": "Western Digital purple",
+    "price": 120,
+    "characteristics": {
+      "capacity": "4TB",
+      "speed": "7200rpm",
+      "connection": "SATA III"
+    },
+    "poster_path": "images/Western Digital purple.jpeg"
+  }
 ]

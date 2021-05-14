@@ -1,68 +1,68 @@
 [
-    {
-        "name" : "MSI B450-A Pro Max",
-        "price" : 70,
-        "characteristics" : {
-            "size" : "ATX",
-            "model" : "Ryzen",
-            "socket" : "AM4",
-            "ramType" : "DDR4"
-        },
-        "poster_path" : "images/MSI B450-A Pro Max.jpeg"
+  {
+    "name": "MSI B450-A Pro Max",
+    "price": 70,
+    "characteristics": {
+      "size": "ATX",
+      "model": "Ryzen",
+      "socket": "AM4",
+      "ram type": "DDR4"
     },
-    {
-        "name" : "MSI MAG B550 Tomahawk",
-        "price" : 165,
-        "characteristics" : {
-            "size" : "ATX",
-            "model" : "Ryzen",
-            "socket" : "AM4",
-            "ramType" : "DDR4"
-        },
-        "poster_path" : "images/MSI MAG B550 Tomahawk.jpeg"
+    "poster_path": "images/MSI B450-A Pro Max.jpeg"
+  },
+  {
+    "name": "MSI MAG B550 Tomahawk",
+    "price": 165,
+    "characteristics": {
+      "size": "ATX",
+      "model": "Ryzen",
+      "socket": "AM4",
+      "ram type": "DDR4"
     },
-    {
-        "name" : "Asus ROG Strix X570-E Gaming",
-        "price" : 300,
-        "characteristics" : {
-            "size" : "ATX",
-            "model" : "Ryzen",
-            "socket" : "AM4",
-            "ramType" : "DDR4"
-        },
-        "poster_path" : "images/Asus ROG Strix X570-E Gaming.jpeg"
+    "poster_path": "images/MSI MAG B550 Tomahawk.jpeg"
+  },
+  {
+    "name": "Asus ROG Strix X570-E Gaming",
+    "price": 300,
+    "characteristics": {
+      "size": "ATX",
+      "model": "Ryzen",
+      "socket": "AM4",
+      "ram type": "DDR4"
     },
-    {
-        "name" : "Asrock B460M Pro4",
-        "price" : 85,
-        "characteristics" : {
-            "size" : "ATX",
-            "model" : "Intel",
-            "socket" : "1200",
-            "ramType" : "DDR4"
-        },
-        "poster_path" : "images/Asrock B460M Pro4.jpeg"
+    "poster_path": "images/Asus ROG Strix X570-E Gaming.jpeg"
+  },
+  {
+    "name": "Asrock B460M Pro4",
+    "price": 85,
+    "characteristics": {
+      "size": "ATX",
+      "model": "Intel",
+      "socket": "1200",
+      "ram type": "DDR4"
     },
-    {
-        "name" : "MSI Z490 A Pro",
-        "price" : 150,
-        "characteristics" : {
-            "size" : "ATX",
-            "model" : "Intel",
-            "socket" : "1200",
-            "ramType" : "DDR4"
-        },
-        "poster_path" : "images/MSI Z490 A Pro.jpeg"
+    "poster_path": "images/Asrock B460M Pro4.jpeg"
+  },
+  {
+    "name": "MSI Z490 A Pro",
+    "price": 150,
+    "characteristics": {
+      "size": "ATX",
+      "model": "Intel",
+      "socket": "1200",
+      "ram type": "DDR4"
     },
-    {
-        "name" : "Gigabyte Z490 Aorus Elite",
-        "price" : 320,
-        "characteristics" : {
-            "size" : "ATX",
-            "model" : "Intel",
-            "socket" : "1200",
-            "ramType" : "DDR4"
-        },
-        "poster_path" : "images/Gigabyte Z490 Aorus Elite.jpeg"
-    }
+    "poster_path": "images/MSI Z490 A Pro.jpeg"
+  },
+  {
+    "name": "Gigabyte Z490 Aorus Elite",
+    "price": 320,
+    "characteristics": {
+      "size": "ATX",
+      "model": "Intel",
+      "socket": "1200",
+      "ram type": "DDR4"
+    },
+    "poster_path": "images/Gigabyte Z490 Aorus Elite.jpeg"
+  }
 ]

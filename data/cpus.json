@@ -5,7 +5,7 @@
     "price": 150,
     "characteristics": {
       "family": "Ryzen 3",
-      "microArchitecture": "Zen+",
+      "micro architecture": "Zen+",
       "socket": "AM4",
       "cores": 4,
       "threads": 4,
@@ -19,7 +19,7 @@
     "price": 250,
     "characteristics": {
       "family": "Core i5",
-      "microArchitecture": "Comet Lake",
+      "micro architecture": "Comet Lake",
       "socket": "1200",
       "cores": 6,
       "threads": 12,
@@ -33,7 +33,7 @@
     "price": 135,
     "characteristics": {
       "family": "Core i3",
-      "microArchitecture": "Comet Lake",
+      "micro architecture": "Comet Lake",
       "socket": "1200",
       "cores": 6,
       "threads": 12,
@@ -47,7 +47,7 @@
     "price": 248,
     "characteristics": {
       "family": "Ryzen 5",
-      "microArchitecture": "Zen2",
+      "micro architecture": "Zen2",
       "socket": "AM4",
       "cores": 6,
       "threads": 12,
@@ -61,7 +61,7 @@
     "price": 360,
     "characteristics": {
       "family": "Ryzen 7",
-      "microArchitecture": "Zen+",
+      "micro architecture": "Zen+",
       "socket": "AM4",
       "cores": 8,
       "threads": 16,
@@ -75,7 +75,7 @@
     "price": 375,
     "characteristics": {
       "family": "Core i7",
-      "microArchitecture": "Comet Lake",
+      "micro architecture": "Comet Lake",
       "socket": "1200",
       "cores": 8,
       "threads": 16,
