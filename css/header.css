@@ -81,13 +81,13 @@ body {
   }
 
   #header {
-    padding: 0;
+    padding: 1rem;
     margin: 0;
     font-size: 1rem;
     max-width: max-content;
   }
   .nav-bar {
-    padding: 0;
+    padding: 1rem;
     margin: 0;
     font-size: 1rem;
     width: 100vw;
