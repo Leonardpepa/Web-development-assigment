@@ -118,10 +118,10 @@ const createCard = (item, contentContainer, index) => {
   const input = document.createElement("input");
   input.type = "radio";
   input.classList.add("input");
-  input.name = "price";
+  input.name = item.type;
 
   const label = document.createElement("label");
-  label.setAttribute("for", "price");
+  label.setAttribute("for", item.type);
   label.classList.add("price-label");
   label.innerText = `Price : ${item.price}€`;
 
