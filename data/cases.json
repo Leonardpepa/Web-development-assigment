@@ -1,6 +1,7 @@
 [
     {
         "name" : "Cougar MX410 Mesh-G RGB",
+        "type" : "case",
         "price" : 60,
         "characteristics" : {
             "size" : "Midi Tower",
@@ -10,6 +11,7 @@
     },
     {
         "name" : "NZXT H510 Black Red",
+        "type" : "case",
         "price" : 100,
         "characteristics" : {
             "size" : "Midi Tower",
@@ -19,6 +21,7 @@
     },
     {
         "name" : "Cougar MX330-X",
+        "type" : "case",
         "price" : 35,
         "characteristics" : {
             "size" : "Midi Tower",
@@ -28,6 +31,7 @@
     },
     {
         "name" : "CoolerMaster Cosmos C700P",
+        "type" : "case",
         "price" : 160,
         "characteristics" : {
             "size" : "Midi Tower",

@@ -1,6 +1,7 @@
 [
   {
     "name": "MSI B450-A Pro Max",
+    "type" : "motherboard",
     "price": 70,
     "characteristics": {
       "size": "ATX",
@@ -12,6 +13,7 @@
   },
   {
     "name": "MSI MAG B550 Tomahawk",
+    "type" : "motherboard",
     "price": 165,
     "characteristics": {
       "size": "ATX",
@@ -23,6 +25,7 @@
   },
   {
     "name": "Asus ROG Strix X570-E Gaming",
+    "type" : "motherboard",
     "price": 300,
     "characteristics": {
       "size": "ATX",
@@ -34,6 +37,7 @@
   },
   {
     "name": "Asrock B460M Pro4",
+    "type" : "motherboard",
     "price": 85,
     "characteristics": {
       "size": "ATX",
@@ -45,6 +49,7 @@
   },
   {
     "name": "MSI Z490 A Pro",
+    "type" : "motherboard",
     "price": 150,
     "characteristics": {
       "size": "ATX",
@@ -56,6 +61,7 @@
   },
   {
     "name": "Gigabyte Z490 Aorus Elite",
+    "type" : "motherboard",
     "price": 320,
     "characteristics": {
       "size": "ATX",

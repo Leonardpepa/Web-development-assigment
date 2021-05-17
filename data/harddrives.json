@@ -1,6 +1,7 @@
 [
   {
     "name": "Western Digital Blue",
+    "type" : "hdd",
     "price": 40,
     "characteristics": {
       "capacity": "1TB",
@@ -11,6 +12,7 @@
   },
   {
     "name": "Western Digital red",
+    "type" : "hdd",
     "price": 75,
     "characteristics": {
       "capacity": "2TB",
@@ -21,6 +23,7 @@
   },
   {
     "name": "Western Digital purple",
+    "type" : "hdd",
     "price": 120,
     "characteristics": {
       "capacity": "4TB",

@@ -1,6 +1,7 @@
 [
     {
         "name" : "Be Quiet System Power 9",
+        "type" : "power-supply",
         "price" : 100,
         "characteristics" : {
             "type" : "ATX",
@@ -11,6 +12,7 @@
     },
     {
         "name" : "Corsair CV Series CV550",
+        "type" : "power-supply",
         "price" : 65,
         "characteristics" : {
             "type" : "ATX",
@@ -21,6 +23,7 @@
     },
     {
         "name" : "Corsair TX-M Series",
+        "type" : "power-supply",
         "price" : 130,
         "characteristics" : {
             "type" : "ATX",
@@ -31,6 +34,7 @@
     },
     {
         "name" : "Corsair AX Series",
+        "type" : "power-supply",
         "price" : 300,
         "characteristics" : {
             "type" : "ATX",

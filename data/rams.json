@@ -1,6 +1,7 @@
 [
   {
     "name": "HyperX Fury",
+    "type": "ram",
     "price": 45,
     "characteristics": {
       "capacity": "4GB",
@@ -10,6 +11,7 @@
   },
   {
     "name": "G.Skill RipjawsV",
+    "type": "ram",
     "price": 100,
     "characteristics": {
       "capacity": "8GB",
@@ -19,6 +21,7 @@
   },
   {
     "name": "Corsair Vengeance RGB Pro",
+    "type": "ram",
     "price": 180,
     "characteristics": {
       "capacity": "8GB",
@@ -28,6 +31,7 @@
   },
   {
     "name": "G.Skill TridentZ Neo ",
+    "type": "ram",
     "price": 250,
     "characteristics": {
       "capacity": "16GB",
