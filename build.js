@@ -6,6 +6,7 @@ const container = document.querySelector(".content-container");
 
 const navLinks = document.querySelectorAll(".nav-link");
 const dataArray = [];
+let totalCost = 0;
 
 const render = () => {
   if (!window.name) {
@@ -116,7 +117,13 @@ const createCard = (item, contentContainer, index) => {
   const input = document.createElement("input");
   input.type = "radio";
   input.classList.add("input");
+  input.innerHTML = item.price;
   input.name = item.type;
+  input.attributes.required = "required";
+  
+  input.addEventListener("click", ()=>{
+      calculateCost();
+  })
 
   const label = document.createElement("label");
   label.setAttribute("for", item.type);
@@ -144,5 +151,20 @@ const displayAllData = () => {
  
   toggleCategory();
 };
+
+const calculateCost = () => {
+  totalCost = 0;
+  category.forEach(c => {
+    let inputs  = c.children[1].getElementsByTagName("input");
+    let labels = c.children[1].getElementsByTagName("label");
+    for(let i=0; i<inputs.length; i++){
+      if(inputs[i].checked){
+        let cost = Number.parseInt(labels[i].innerText.slice(7,labels[i].innerText.length-1));
+        totalCost += cost;
+      }
+    }
+  });
+  console.log(totalCost);
+}
 
 render();
