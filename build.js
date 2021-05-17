@@ -14,10 +14,8 @@ const render = () => {
   } else {
     navigateToHome();
     navigateNavBar();
-    mapData(window.name);
     configureTitle();
     displayAllData();
-    toggleCategory();
   }
 };
 
@@ -138,9 +136,13 @@ const createCard = (item, contentContainer, index) => {
 };
 
 const displayAllData = () => {
+  mapData(window.name);
+ 
   for (let i = 0; i < dataArray.length; i++) {
     createContent(dataArray[i], i);
   }
+ 
+  toggleCategory();
 };
 
 render();
