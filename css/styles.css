@@ -147,9 +147,6 @@ body {
   }
   .banner-container {
     position: unset;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: space-evenly;
     height: fit-content;
   }
@@ -157,6 +154,7 @@ body {
     position: unset;
     padding: 1rem;
     font-size: 2.2rem;
+    margin-bottom: 15rem;
   }
 
   .banner-img {
