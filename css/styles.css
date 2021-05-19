@@ -151,17 +151,18 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    height: fit-content;
   }
   .title {
     position: unset;
     padding: 1rem;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 
   .banner-img {
     position: unset;
     width: 100%;
-    max-width: 30%;
+    max-width: 28%;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
   }
@@ -178,14 +179,14 @@ body {
   }
   .title {
     padding: 1rem;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     position: unset;
   }
 
   .banner-img {
     position: unset;
     width: 100%;
-    max-width: 30%;
+    max-width: 28%;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
   }
