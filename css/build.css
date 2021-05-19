@@ -125,3 +125,10 @@ li {
   transform: scale(1.05);
   transition: all 0.3s;
 }
+
+@media (max-width: 600px) {
+  .cartBtn {
+    max-width: 30%;
+    font-size: 1rem;
+  }
+}

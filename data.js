@@ -15,6 +15,7 @@ const readData = (array, path) => {
     });
 };
 
+
 readData(cpus, "cpus");
 readData(cases, "cases");
 readData(gpus, "gpus");

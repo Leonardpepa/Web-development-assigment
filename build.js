@@ -8,18 +8,16 @@ const navLinks = document.querySelectorAll(".nav-link");
 const dataArray = [];
 let totalCost = 0;
 let merged = [];
+let order = [];
+
+const windowName = sessionStorage.getItem("name");
+console.log(windowName);
 
 const render = () => {
-  if (!window.name) {
-    window.open("index.html");
-    window.close();
-  } else {
     navigateToHome();
-    navigateNavBar();
     configureTitle();
     displayAllData();
     goToCart();
-  }
 };
 
 const mapData = (name) => {
@@ -66,24 +64,14 @@ const toggleCategory = () => {
 };
 
 const configureTitle = () => {
-  title.innerText = window.name.toUpperCase();
+  title.innerText = windowName.toUpperCase();
   title.classList.add("title");
   main.insertBefore(title, main.firstChild);
 };
 
 const navigateToHome = () => {
   logo.addEventListener("click", () => {
-    window.open("index.html");
-    window.close();
-  });
-};
-
-const navigateNavBar = () => {
-  navLinks.forEach((link) => {
-    link.addEventListener("click", (e) => {
-      window.close();
-      window.open(`index.html#${e.target.name}`);
-    });
+    location.href = "index.html";
   });
 };
 
@@ -129,7 +117,12 @@ const createCard = (item, contentContainer, index) => {
   input.attributes.required = "required";
   
   input.addEventListener("click", ()=>{
-      calculateCost();
+    const product = findItem(item.name);
+    order = order.filter((orderItem) => {
+      return orderItem.type !== product.type; 
+    })
+    order.push(item)
+    calculateCost();
   })
 
   const label = document.createElement("label");
@@ -150,7 +143,7 @@ const createCard = (item, contentContainer, index) => {
 };
 
 const displayAllData = () => {
-  mapData(window.name);
+  mapData(windowName);
  
   for (let i = 0; i < dataArray.length; i++) {
     createContent(dataArray[i], i);
@@ -161,17 +154,11 @@ const displayAllData = () => {
 
 const calculateCost = () => {
   totalCost = 0;
-  category.forEach(c => {
-    let inputs  = c.children[1].getElementsByTagName("input");
-    let labels = c.children[1].getElementsByTagName("label");
-    for(let i=0; i<inputs.length; i++){
-      if(inputs[i].checked){
-        let cost = Number.parseInt(labels[i].innerText.slice(7,labels[i].innerText.length-1));
-        totalCost += cost;
-      }
-    }
-  });
+  order.forEach(item => {
+    totalCost += item.price;
+  })
   console.log(totalCost);
+  console.log(order);
 }
 
 const findItem = (name) => {
@@ -181,28 +168,24 @@ const findItem = (name) => {
 }
 
 const checkRequired = () => {
-  let flag = true;
-  category.forEach(category => {
-     flag = true;
-    let inputs  = category.children[1].getElementsByTagName("input");
-    for(let i=0; i<inputs.length; i++){
-      if(inputs[i].checked){
-        flag = false;
-      }
-    }
-  });
-  if(flag){
-    alert("you have to choose one product for each category");
+  if(order.length < 7){
+    alert("you have to choose on product for each category");
+    return false;
   }
-  return flag;
+  return true;
 }
 const goToCart = () => {
+  let flag = false;
   const form = document.querySelector(".form");
   form.addEventListener("submit", (e) => {
     e.preventDefault();
-    checkRequired();
+    console.log(flag);
+    flag = checkRequired();
+    if(flag){
+      sessionStorage.setItem("orderJSON", JSON.stringify(order));
+      //location.href = "test.html";
+    }
   })
-  //TODO show cart
 }
 
 render();
