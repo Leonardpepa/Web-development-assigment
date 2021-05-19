@@ -8,6 +8,7 @@ const navLinks = document.querySelectorAll(".nav-link");
 const dataArray = [];
 let totalCost = 0;
 
+
 const render = () => {
   if (!window.name) {
     window.open("index.html");
@@ -17,6 +18,7 @@ const render = () => {
     navigateNavBar();
     configureTitle();
     displayAllData();
+    goToCart();
   }
 };
 
@@ -167,4 +169,30 @@ const calculateCost = () => {
   console.log(totalCost);
 }
 
+const checkRequired = () => {
+  let flag = true;
+  category.forEach(category => {
+     flag = true;
+    let inputs  = category.children[1].getElementsByTagName("input");
+    for(let i=0; i<inputs.length; i++){
+      if(inputs[i].checked){
+        flag = false;
+      }
+    }
+  });
+  if(flag){
+    alert("you have to choose one product for each category");
+  }
+  return flag;
+}
+const goToCart = () => {
+  const form = document.querySelector(".form");
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    checkRequired();
+  })
+  //TODO show cart
+}
+
 render();
+

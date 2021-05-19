@@ -95,3 +95,33 @@ li {
 .price-label {
   padding: 0.5rem;
 }
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.cartBtn {
+  color: white;
+  background-color: #02475e;
+  max-width: 25%;
+  width: 100%;
+  height: 4rem;
+  border: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.cartBtn:focus {
+  outline: 0;
+}
+
+.cartBtn:hover {
+  background-color: #02475f;
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
