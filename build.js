@@ -7,7 +7,7 @@ const container = document.querySelector(".content-container");
 const navLinks = document.querySelectorAll(".nav-link");
 const dataArray = [];
 let totalCost = 0;
-
+let merged = [];
 
 const render = () => {
   if (!window.name) {
@@ -47,6 +47,11 @@ const mapData = (name) => {
   dataArray.push(rams);
   dataArray.push(hdds);
   dataArray.push(gpus);
+
+  setTimeout(() => {
+     merged = [].concat.apply([], dataArray);
+  }, 100);
+
 };
 
 const toggleCategory = () => {
@@ -169,6 +174,12 @@ const calculateCost = () => {
   console.log(totalCost);
 }
 
+const findItem = (name) => {
+    return merged.filter(item => {
+      return name === item.name;
+    })[0];
+}
+
 const checkRequired = () => {
   let flag = true;
   category.forEach(category => {
@@ -195,4 +206,3 @@ const goToCart = () => {
 }
 
 render();
-
