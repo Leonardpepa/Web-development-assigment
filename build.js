@@ -183,7 +183,7 @@ const goToCart = () => {
     flag = checkRequired();
     if(flag){
       sessionStorage.setItem("orderJSON", JSON.stringify(order));
-      //location.href = "test.html";
+      location.href = "cart.html";
     }
   })
 }

@@ -1,0 +1,34 @@
+.icon {
+  color: white;
+}
+.logo {
+  width: 100%;
+  max-width: 9%;
+  height: auto;
+}
+
+@media (max-width: 1080px) {
+  .logo {
+    max-width: 12%;
+  }
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo {
+    max-width: 30%;
+  }
+  #header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+  }
+  .icon {
+    display: flex;
+    justify-self: end;
+  }
+}
