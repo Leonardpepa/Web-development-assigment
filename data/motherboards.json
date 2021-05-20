@@ -9,7 +9,7 @@
       "socket": "AM4",
       "ram type": "DDR4"
     },
-    "poster_path": "images/MSI B450-A Pro Max.jpeg"
+    "poster_path": "/images/MSI B450-A Pro Max.jpeg"
   },
   {
     "name": "MSI MAG B550 Tomahawk",
@@ -21,7 +21,7 @@
       "socket": "AM4",
       "ram type": "DDR4"
     },
-    "poster_path": "images/MSI MAG B550 Tomahawk.jpeg"
+    "poster_path": "/images/MSI MAG B550 Tomahawk.jpeg"
   },
   {
     "name": "Asus ROG Strix X570-E Gaming",
@@ -33,7 +33,7 @@
       "socket": "AM4",
       "ram type": "DDR4"
     },
-    "poster_path": "images/Asus ROG Strix X570-E Gaming.jpeg"
+    "poster_path": "/images/Asus ROG Strix X570-E Gaming.jpeg"
   },
   {
     "name": "Asrock B460M Pro4",
@@ -45,7 +45,7 @@
       "socket": "1200",
       "ram type": "DDR4"
     },
-    "poster_path": "images/Asrock B460M Pro4.jpeg"
+    "poster_path": "/images/Asrock B460M Pro4.jpeg"
   },
   {
     "name": "MSI Z490 A Pro",
@@ -57,7 +57,7 @@
       "socket": "1200",
       "ram type": "DDR4"
     },
-    "poster_path": "images/MSI Z490 A Pro.jpeg"
+    "poster_path": "/images/MSI Z490 A Pro.jpeg"
   },
   {
     "name": "Gigabyte Z490 Aorus Elite",
@@ -69,6 +69,6 @@
       "socket": "1200",
       "ram type": "DDR4"
     },
-    "poster_path": "images/Gigabyte Z490 Aorus Elite.jpeg"
+    "poster_path": "/images/Gigabyte Z490 Aorus Elite.jpeg"
   }
 ]

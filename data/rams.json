@@ -7,7 +7,7 @@
       "capacity": "4GB",
       "base clock": "2666MHz"
     },
-    "poster_path": "images/HyperX Fury.png"
+    "poster_path": "/images/HyperX Fury.png"
   },
   {
     "name": "G.Skill RipjawsV",
@@ -17,7 +17,7 @@
       "capacity": "8GB",
       "base clock": "2666MHz"
     },
-    "poster_path": "images/G.Skill RipjawsV.jpeg"
+    "poster_path": "/images/G.Skill RipjawsV.jpeg"
   },
   {
     "name": "Corsair Vengeance RGB Pro",
@@ -27,7 +27,7 @@
       "capacity": "8GB",
       "base clock": "3200MHz"
     },
-    "poster_path": "images/Corsair Vengeance RGB Pro.jpeg"
+    "poster_path": "/images/Corsair Vengeance RGB Pro.jpeg"
   },
   {
     "name": "G.Skill TridentZ Neo ",
@@ -37,6 +37,6 @@
       "capacity": "16GB",
       "base clock": "3600MHz"
     },
-    "poster_path": "images/G.Skill TridentZ Neo.jpeg"
+    "poster_path": "/images/G.Skill TridentZ Neo.jpeg"
   }
 ]

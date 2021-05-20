@@ -8,7 +8,7 @@
             "power" : "600 W",
             "certification" : "80 plus bronze"
         }, 
-        "poster_path": "images/Be Quiet System Power 9.jpeg"
+        "poster_path": "/images/Be Quiet System Power 9.jpeg"
     },
     {
         "name" : "Corsair CV Series CV550",
@@ -19,7 +19,7 @@
             "power" : "600 W",
             "certification" : "80 plus bronze"
         }, 
-        "poster_path": "images/Corsair CV Series CV550.jpeg"
+        "poster_path": "/images/Corsair CV Series CV550.jpeg"
     },
     {
         "name" : "Corsair TX-M Series",
@@ -30,7 +30,7 @@
             "power" : "750 W",
             "certification" : "80 plus gold"
         }, 
-        "poster_path": "images/Corsair TX-M Series.jpeg"
+        "poster_path": "/images/Corsair TX-M Series.jpeg"
     },
     {
         "name" : "Corsair AX Series",
@@ -41,6 +41,6 @@
             "power" : "1000 W",
             "certification" : "80 plus Titanium"
         }, 
-        "poster_path": "images/Corsair AX Series.jpeg"
+        "poster_path": "/images/Corsair AX Series.jpeg"
     }
 ]
