@@ -10,6 +10,14 @@ let totalCost = 0;
 let merged = [];
 let order = [];
 
+let cpus = JSON.parse( sessionStorage.getItem("cpus"));
+let cases = JSON.parse( sessionStorage.getItem("cases"));
+let rams = JSON.parse( sessionStorage.getItem("rams"));
+let hdds = JSON.parse( sessionStorage.getItem("harddrives"));
+let motherboards = JSON.parse( sessionStorage.getItem("motherboards"));
+let powerSupplys = JSON.parse( sessionStorage.getItem("power_supplys"));
+let gpus = JSON.parse( sessionStorage.getItem("gpus"));
+
 const windowName = sessionStorage.getItem("name");
 console.log(windowName);
 
@@ -24,19 +32,15 @@ const mapData = (name) => {
   const filteredCpus = [];
   const filteredMotherbaords = [];
 
-  setTimeout(() => {
-    cpus.forEach((cpu) => {
-      cpu.name[0].toUpperCase() === name[0].toUpperCase() &&
-        filteredCpus.push(cpu);
-    });
-  }, 50);
+  cpus.forEach((cpu) => {
+    cpu.name[0].toUpperCase() === name[0].toUpperCase() &&
+      filteredCpus.push(cpu);
+  });
 
-  setTimeout(() => {
-    motherboards.forEach((board) => {
-      board.characteristics.model[0].toUpperCase() === name[0].toUpperCase() &&
-        filteredMotherbaords.push(board);
-    });
-  }, 50);
+  motherboards.forEach((board) => {
+    board.characteristics.model[0].toUpperCase() === name[0].toUpperCase() &&
+      filteredMotherbaords.push(board);
+  });
 
   dataArray.push(filteredCpus);
   dataArray.push(filteredMotherbaords);
@@ -46,9 +50,9 @@ const mapData = (name) => {
   dataArray.push(hdds);
   dataArray.push(gpus);
 
-  setTimeout(() => {
-     merged = [].concat.apply([], dataArray);
-  }, 100);
+
+  merged = [].concat.apply([], dataArray);
+
 
 };
 
@@ -78,11 +82,11 @@ const navigateToHome = () => {
 const createContent = (list, index) => {
   const contentContainer = document.createElement("div");
   contentContainer.classList.add("content-container");
-  setTimeout(() => {
-    list.forEach((item) => {
-      createCard(item, contentContainer, index);
-    });
-  }, 100);
+
+  list.forEach((item) => {
+    createCard(item, contentContainer, index);
+  });
+
 };
 
 const createCard = (item, contentContainer, index) => {

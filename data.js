@@ -11,6 +11,7 @@ const readData = (array, path) => {
     .then((res) => res.json())
     .then((data) => {
       data.forEach((item) => array.push(item));
+      sessionStorage.setItem(path, JSON.stringify(array));
       return data;
     });
 };
