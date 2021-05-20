@@ -1,3 +1,7 @@
+.title {
+  margin: 1rem 1.5rem;
+  padding: 1rem;
+}
 .icon {
   color: white;
 }
@@ -5,6 +9,67 @@
   width: 100%;
   max-width: 9%;
   height: auto;
+}
+#main {
+  background-color: white;
+}
+.wrapper-container {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 0;
+}
+.form input {
+  padding: 1rem;
+  margin-right: 0.5rem;
+  width: 14rem;
+}
+
+.input-pair {
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.input-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  padding: 0.5rem;
+}
+.text-area {
+  height: 5rem;
+}
+#cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.products {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  max-width: 80%;
+}
+.product {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.product img {
+  width: 100%;
+  max-width: 10%;
+  height: auto;
+}
+
+@media (max-width: 1400px) {
 }
 
 @media (max-width: 1080px) {
@@ -15,6 +80,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  .wrapper-container {
+    width: fit-content;
+  }
+  .title {
+    margin: 0;
+  }
+  .form input {
+    width: 10rem;
+  }
+  .text-area {
+    height: 2rem;
+  }
+  .form {
+    padding: 1rem;
+    margin: 1rem;
   }
 }
 
