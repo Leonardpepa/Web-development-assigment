@@ -3,7 +3,7 @@
         "name" : "Gigabyte GeForce GTX 1660 Super 6GB OC",
         "type" : "gpu",
         "description" : "Η Gigabyte GeForce GTX 1660 Super 6GB OC βασίζεται στην αρχιτεκτονική NVIDIA Turing με ενσωματωμένη μνήμη 6GB GDDR6, ταχύτητα επεξεργαστή 1785MHz και σύστημα ψύξης Windforce 2X.",
-        "price" : 574.98,
+        "price" : 574,
         "characteristics" : {
             "Processor Manufacturer" : "Nvidia",
             "Chipset Model" : "GeForce GTX 1660 Super",

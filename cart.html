@@ -1,133 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ICS20033</title>
-     <!-- Google Fonts -->
-     <link rel="preconnect" href="https://fonts.gstatic.com" />
-     <link
-       href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-       rel="stylesheet"
-     />
- 
-     <!-- CSS Stylesheets -->
-     <link rel="stylesheet" href="css/header.css" />
-     <link rel="stylesheet" href="css/footer.css" />
-     <link rel="stylesheet" href="css/cart.css">
-     <!-- Font Awesome -->
-     <link
-       rel="stylesheet"
-       href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
-       integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
-       crossorigin="anonymous"
-     />
-     <!-- <script
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/cart.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <!-- <script
        defer
        src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
      ></script> -->
- 
-     <!-- Favi icon -->
-     <link rel="shortcut icon" type="image/png" href="/logo2.png" />
-</head>
-<body>
+
+    <!-- Favi icon -->
+    <link rel="shortcut icon" type="image/png" href="/logo2.png" />
+  </head>
+  <body>
     <header id="header">
-        <img class="logo" src="logos/logo2.png" alt="logo" />
-        <i class="icon fas fa-shopping-cart fa-2x"></i>
-      </header>
-      <main id="main">
-        <h1 class="title">Check Out</h1>
-        <div class="wrapper-container">
-          <section class="form-container">
-            <form class="form" action="#">
-              <div class="input-pair">
-                <div class="input-label">
-                  <label for="fname">First Name</label>
-                  <input type="name" name="fname" required placeholder="First Name">
-                </div>
-                <div class="input-label">
-                  <label for="lname">Last Name</label>
-                  <input type="name" name="lname" required placeholder="Last Name"> 
-                </div>
+      <img
+        class="logo"
+        src="logos/logo2.png"
+        alt="logo"
+        onclick="location.href='index.html'"
+      />
+      <i class="icon fas fa-shopping-cart fa-2x"></i>
+    </header>
+    <main id="main">
+      <h1 class="title">Check Out</h1>
+      <div class="wrapper-container">
+        <section class="form-container">
+          <form class="form" action="success.html">
+            <div class="input-pair">
+              <div class="input-label">
+                <label for="fname">Full Name</label>
+                <input
+                  type="name"
+                  name="fname"
+                  required
+                  placeholder="Full Name"
+                />
               </div>
-              <div class="input-pair">
-                <div class="input-label">
-                  <label for="address">Street Address</label>
-                  <input type="text" name="address" required placeholder="Street Address">
-                </div>
-                <div class="input-label">
-                  <label for="area">Area</label>
-                  <input type="text" name="area" required placeholder="Area">
-                </div>
-              </div>
-              <div class="input-pair">
-                <div class="input-label">
-                  <label for="city">City</label>
-                  <input type="text" name="city" required placeholder="city">
-                </div>
-                <div class="input-label">
-                  <label for="phone">Phone Number</label>
-                  <input type="tel" name="phone" required placeholder="Phone Number">
-                </div>
-              </div>
-              <div class="input-pair">
-                <div class="input-label">
-                  <label for="text-area">Delivery Instructions</label>
-                  <input class="text-area" name="text-area" type="text-area">
-                </div>
-              </div>
-            </form>
-          </section>
-          <section id="cart">
-            <h1>Summary</h1>
-            <div class="products">
-              <div class="product">
-                <img src="images/XFX Radeon RX 580 8GB GTS XXX Edition.jpeg" alt="">
-                <p class="name">XFX Radeon RX 580 8GB GTS XXX Edition</p>
-                <p class="price">150$</p>
-                <p>x1</p>
-              </div>
-              <div class="product">
-                <img src="images/XFX Radeon RX 580 8GB GTS XXX Edition.jpeg" alt="">
-                <p class="name">XFX Radeon RX 580 8GB GTS XXX Edition</p>
-                <p class="price">150$</p>
-                <p>x1</p>
-              </div>
-              <div class="product">
-                <img src="images/XFX Radeon RX 580 8GB GTS XXX Edition.jpeg" alt="">
-                <p class="name">XFX Radeon RX 580 8GB GTS XXX Edition</p>
-                <p class="price">150$</p>
-                <p>x1</p>
-              </div>
-              <div class="product">
-                <img src="images/XFX Radeon RX 580 8GB GTS XXX Edition.jpeg" alt="">
-                <p class="name">XFX Radeon RX 580 8GB GTS XXX Edition</p>
-                <p class="price">150$</p>
-                <p>x1</p>
+              <div class="input-label">
+                <label for="email">Email</label>
+                <input type="email" name="email" required placeholder="email" />
               </div>
             </div>
-          </section>
-
-        </div>
-      </main>
+            <div class="input-pair">
+              <div class="input-label">
+                <label for="address">Street Address</label>
+                <input
+                  type="text"
+                  name="address"
+                  required
+                  placeholder="Street Address"
+                />
+              </div>
+              <div class="input-label">
+                <label for="area">Area</label>
+                <input type="text" name="area" required placeholder="Area" />
+              </div>
+            </div>
+            <div class="input-pair">
+              <div class="input-label">
+                <label for="city">City</label>
+                <input type="text" name="city" required placeholder="city" />
+              </div>
+              <div class="input-label">
+                <label for="phone">Phone Number</label>
+                <input
+                  type="tel"
+                  name="phone"
+                  required
+                  placeholder="Phone Number"
+                />
+              </div>
+            </div>
+            <div class="input-pair">
+              <div class="input-label">
+                <label for="text-area">Delivery Instructions</label>
+                <input
+                  maxlength="1000"
+                  class="text-area"
+                  name="text-area"
+                  type="text-area"
+                />
+              </div>
+            </div>
+            <button
+              type="submit"
+              class="submit-btn"
+              style="display: none"
+            ></button>
+          </form>
+        </section>
+        <section id="cart">
+          <h1>Summary</h1>
+          <div class="products"></div>
+          <p class="desktop-cost">Customized Desktop cost</p>
+          <select name="shipping" id="shipping">
+            <option value="0" selected disabled>Select Shipping</option>
+            <option value="7">6-10 Business Days 7€</option>
+            <option value="10">3-5 Business Days 10€</option>
+          </select>
+          <p class="total-cost">Total Cost</p>
+          <button class="btn">Check Out</button>
+        </section>
+      </div>
+    </main>
     <section id="contact">
-        <footer>
-          <div class="icon-container">
-            <a
-              href="https://www.linkedin.com/in/leonarnt-pepa-bb74371b9/"
-              target="_blank"
-              ><i class="icon fab fa-linkedin fa-2x"></i
-            ></a>
-            <a href="https://github.com/Leonardpepa" target="_blank">
-              <i class="icon fab fa-github fa-2x"></i>
-            </a>
-            <a href="https://twitter.com/LeonarntP" target="_blank">
-              <i class="icon fab fa-twitter-square fa-2x"></i>
-            </a>
-          </div>
-          <p>© Copyright 2021 ICS20033</p>
-        </footer>
-      </section>
-</body>
+      <footer>
+        <div class="icon-container">
+          <a
+            href="https://www.linkedin.com/in/leonarnt-pepa-bb74371b9/"
+            target="_blank"
+            ><i class="icon fab fa-linkedin fa-2x"></i
+          ></a>
+          <a href="https://github.com/Leonardpepa" target="_blank">
+            <i class="icon fab fa-github fa-2x"></i>
+          </a>
+          <a href="https://twitter.com/LeonarntP" target="_blank">
+            <i class="icon fab fa-twitter-square fa-2x"></i>
+          </a>
+        </div>
+        <p>© Copyright 2021 ICS20033</p>
+      </footer>
+    </section>
+    <script src="/cart.js"></script>
+  </body>
 </html>

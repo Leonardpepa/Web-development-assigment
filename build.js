@@ -22,7 +22,6 @@ const windowName = sessionStorage.getItem("name");
 console.log(windowName);
 
 const render = () => {
-    navigateToHome();
     configureTitle();
     displayAllData();
     goToCart();
@@ -71,12 +70,6 @@ const configureTitle = () => {
   title.innerText = windowName.toUpperCase();
   title.classList.add("title");
   main.insertBefore(title, main.firstChild);
-};
-
-const navigateToHome = () => {
-  logo.addEventListener("click", () => {
-    location.href = "index.html";
-  });
 };
 
 const createContent = (list, index) => {
@@ -187,6 +180,7 @@ const goToCart = () => {
     flag = checkRequired();
     if(flag){
       sessionStorage.setItem("orderJSON", JSON.stringify(order));
+      sessionStorage.setItem("cost", totalCost);
       location.href = "cart.html";
     }
   })
