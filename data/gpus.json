@@ -14,7 +14,7 @@
             "Memory type" : "GDDR6",
             "Memeory clock" : "14000 MHz"  
         },
-        "poster_path" : "/images/Gigabyte GeForce GTX 1660 Super 6GB OC.jpeg"
+        "poster_path" : "images/Gigabyte GeForce GTX 1660 Super 6GB OC.jpeg"
     },
     {
         "name" : "MSI GeForce RTX 2060 6GB Ventus XS OC",
@@ -31,7 +31,7 @@
             "Memory type" : "GDDR6",
             "Memeory clock" : "14000 MHz"  
         },
-        "poster_path" : "/images/MSI GeForce RTX 2060 6GB Ventus XS OC.jpeg"
+        "poster_path" : "images/MSI GeForce RTX 2060 6GB Ventus XS OC.jpeg"
     },
     {
         "name" : "Gigabyte GeForce GTX1050 Ti 4GB OC",
@@ -48,7 +48,7 @@
             "Memory type" : "GDDR5",
             "Memeory clock" : "7008 MHz"  
         },
-        "poster_path" : "/images/Gigabyte GeForce GTX1050 Ti 4GB OC.jpeg"
+        "poster_path" : "images/Gigabyte GeForce GTX1050 Ti 4GB OC.jpeg"
     },
     {
         "name" : "XFX Radeon RX 580 8GB GTS XXX Edition",
@@ -65,7 +65,7 @@
             "Memory type" : "GDDR5",
             "Memeory clock" : "8000 MHz"  
         },
-        "poster_path" : "/images/XFX Radeon RX 580 8GB GTS XXX Edition.jpeg"
+        "poster_path" : "images/XFX Radeon RX 580 8GB GTS XXX Edition.jpeg"
     },
     {
         "name" : "MSI GeForce GTX 1660 Super 6GB Ventus XS OC",
@@ -82,6 +82,6 @@
             "Memory type" : "GDDR6",
             "Memeory clock" : "8000 MHz"  
         },
-        "poster_path" : "/images/MSI GeForce GTX 1660 Super 6GB Ventus XS OC.jpeg"
+        "poster_path" : "images/MSI GeForce GTX 1660 Super 6GB Ventus XS OC.jpeg"
     }
 ]

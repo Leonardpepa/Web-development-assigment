@@ -7,7 +7,7 @@ const powerSupplys = [];
 const cases = [];
 
 const readData = (array, path) => {
-  fetch(`/data/${path}.json`)
+  fetch(`data/${path}.json`)
     .then((res) => res.json())
     .then((data) => {
       data.forEach((item) => array.push(item));

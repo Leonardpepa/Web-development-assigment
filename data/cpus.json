@@ -12,7 +12,7 @@
       "threads": 4,
       "base clock": "3,6GHz"
     },
-    "poster_path": "/images/AMD Ryzen 3 3200G.jpeg"
+    "poster_path": "images/AMD Ryzen 3 3200G.jpeg"
   },
   {
     "name": "Intel Core i5-10400F",
@@ -27,7 +27,7 @@
       "threads": 12,
       "base clock": "2,9GHz"
     },
-    "poster_path": "/images/Intel Core i5-10400F.jpeg"
+    "poster_path": "images/Intel Core i5-10400F.jpeg"
   },
   {
     "name": "Intel Core i3-10100",
@@ -42,7 +42,7 @@
       "threads": 12,
       "base clock": "3,6GHz"
     },
-    "poster_path": "/images/Intel Core i3-10100.jpeg"
+    "poster_path": "images/Intel Core i3-10100.jpeg"
   },
   {
     "name": "AMD Ryzen 5 3600",
@@ -57,7 +57,7 @@
       "threads": 12,
       "base clock": "3,6GHz"
     },
-    "poster_path": "/images/AMD Ryzen 5 3600.jpeg"
+    "poster_path": "images/AMD Ryzen 5 3600.jpeg"
   },
   {
     "name": "AMD Ryzen 7 2700X",
@@ -72,7 +72,7 @@
       "threads": 16,
       "base clock": "3,7GHz"
     },
-    "poster_path": "/images/AMD Ryzen 7 2700X.jpeg"
+    "poster_path": "images/AMD Ryzen 7 2700X.jpeg"
   },
   {
     "name": "Intel Core i7-10700F",
@@ -87,6 +87,6 @@
       "threads": 16,
       "base clock": "2,9GHz"
     },
-    "poster_path": "/images/Intel Core i7-10700F.jpeg"
+    "poster_path": "images/Intel Core i7-10700F.jpeg"
   }
 ]
