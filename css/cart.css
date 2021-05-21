@@ -1,6 +1,7 @@
 .title {
   margin: 1rem 1.5rem;
   padding: 1rem;
+  text-align: center;
 }
 .icon {
   color: white;
@@ -155,7 +156,10 @@
     display: flex;
     justify-self: end;
   }
+  .form {
+    padding: 0.5rem;
+  }
   .products {
-    max-width: 90%;
+    max-width: 85%;
   }
 }
