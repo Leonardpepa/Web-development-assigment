@@ -162,4 +162,7 @@
   .products {
     max-width: 85%;
   }
+  .form input {
+    width: 9rem;
+  }
 }

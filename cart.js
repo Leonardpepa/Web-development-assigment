@@ -52,7 +52,7 @@ const displayContent = () => {
 };
 
 const chooseShipping = () => {
-  shipping.addEventListener("click", () => {
+  shipping.addEventListener("change", () => {
     const selectedIndex = shipping.options.selectedIndex;
     displayTotalCost(selectedIndex);
   });
