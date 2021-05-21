@@ -1,5 +1,4 @@
 .title {
-  margin: 1rem 1.5rem;
   padding: 1rem;
   text-align: center;
 }
@@ -13,6 +12,7 @@
 }
 #main {
   background-color: white;
+  width: fit-content;
 }
 .wrapper-container {
   background-color: white;
@@ -121,10 +121,6 @@
     width: fit-content;
     place-items: center;
   }
-  .title {
-    margin: 0;
-    text-align: center;
-  }
   .form input {
     width: 10rem;
   }
@@ -157,12 +153,15 @@
     justify-self: end;
   }
   .form {
-    padding: 0.5rem;
+    margin-left: 0;
   }
   .products {
     max-width: 85%;
   }
   .form input {
     width: 9rem;
+  }
+  .title {
+    padding: 1rem 0;
   }
 }
