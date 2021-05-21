@@ -81,10 +81,16 @@
   max-width: 10%;
   height: auto;
 }
-#shipping {
+#shipping,
+#insurance {
   width: 400px;
   padding: 1rem;
   font-size: 1rem;
+  margin: 0.5rem;
+}
+.total-cost {
+  font-weight: bold;
+  font-size: x-large;
 }
 .btn {
   margin-bottom: 1rem;

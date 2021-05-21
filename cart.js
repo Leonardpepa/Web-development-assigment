@@ -1,11 +1,15 @@
 const order = JSON.parse(sessionStorage.getItem("orderJSON"));
 let cost = sessionStorage.getItem("cost");
+let shippingCost = 0;
+let insuranceCost = 0;
+let updatedCost = 0;
 
 const productsContainer = document.querySelector(".products");
 const desktopCost = document.querySelector(".desktop-cost");
 const totalcost = document.querySelector(".total-cost");
 const checkOutBtn = document.querySelector(".btn");
 const shipping = document.getElementById("shipping");
+const insurance = document.getElementById("insurance");
 const submitBtn = document.querySelector(".submit-btn");
 
 const displayDesktopCost = () => {
@@ -47,6 +51,7 @@ const displayContent = () => {
     createCartContent(product);
   });
   displayDesktopCost();
+  chooseInsurance();
   chooseShipping();
   submit();
 };
@@ -54,14 +59,23 @@ const displayContent = () => {
 const chooseShipping = () => {
   shipping.addEventListener("change", () => {
     const selectedIndex = shipping.options.selectedIndex;
-    displayTotalCost(selectedIndex);
+    shippingCost = Number.parseInt(shipping.options[selectedIndex].value);
+    updatedCost = shippingCost + insuranceCost + Number.parseInt(cost);
+    displayTotalCost(updatedCost);
   });
 };
 
-const displayTotalCost = (selected) => {
-  const total =
-    Number.parseInt(cost) + Number.parseInt(shipping.options[selected].value);
-  totalcost.innerText = `Total Cost ${total}€`;
+const chooseInsurance = () => {
+  insurance.addEventListener("change", () => {
+    const selectedIndex = insurance.options.selectedIndex;
+    insuranceCost = Number.parseInt(insurance.options[selectedIndex].value);
+    updatedCost = shippingCost + insuranceCost + Number.parseInt(cost);
+    displayTotalCost(updatedCost);
+  });
+}
+
+const displayTotalCost = (updatedCost) => {
+  totalcost.innerText = `Total Cost ${updatedCost}€`;
 };
 
 const submit = () => {
