@@ -8,7 +8,7 @@
   css
   javaScript
   
-  #Technologies used for the implementation 
+  # Technologies used for the implementation 
   No frameworks 
   just
   html
