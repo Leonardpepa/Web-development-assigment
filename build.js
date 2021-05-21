@@ -166,7 +166,7 @@ const findItem = (name) => {
 
 const checkRequired = () => {
   if(order.length < 7){
-    alert("you have to choose on product for each category");
+    alert("YOU HAVE TO CHOOSE ONE PRODUCT FROM EACH CATEGORY");
     return false;
   }
   return true;
