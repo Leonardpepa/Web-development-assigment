@@ -174,7 +174,8 @@
   .title {
     padding: 1rem 0;
   }
-  #shipping {
+  #shipping,
+  #insurance {
     max-width: 85%;
   }
   .btn {
