@@ -80,7 +80,7 @@ const displayTotalCost = (updatedCost) => {
 
 const submit = () => {
   checkOutBtn.addEventListener("click", () => {
-    if (shipping.options.selectedIndex === 0 || insurance.options,selectedIndex === 0) {
+    if (shipping.options.selectedIndex === 0 || insurance.options.selectedIndex === 0) {
       alert("YOU NEED TO FILL ALL THE FORMS");
     } else {
       submitBtn.click();
