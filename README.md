@@ -9,7 +9,8 @@
   javaScript
   
   #Technologies used for the implementation 
-  No frameworks \n
+  No frameworks 
+  just
   html
   css
   javaScript
