@@ -143,7 +143,8 @@
   .products {
     max-width: 70%;
   }
-  #shipping {
+  #shipping,
+  #insurance {
     max-width: 70%;
   }
 }
@@ -175,5 +176,8 @@
   }
   #shipping {
     max-width: 85%;
+  }
+  .btn {
+    max-width: 40%;
   }
 }
