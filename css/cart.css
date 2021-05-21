@@ -137,6 +137,9 @@
   .products {
     max-width: 70%;
   }
+  #shipping {
+    max-width: 70%;
+  }
 }
 
 @media (max-width: 600px) {
@@ -163,5 +166,8 @@
   }
   .title {
     padding: 1rem 0;
+  }
+  #shipping {
+    max-width: 85%;
   }
 }
