@@ -1,6 +1,7 @@
  ## Web Development Assigment University Of Macedonia
  ```terminal
- This Website is developed for my course Web Programming in University Of Macedonia lectured by instructor Kaskalis Theodoros
+ This Website is developed for my course Web Programming in University Of Macedonia
+ lectured by instructor Kaskalis Theodoros
  on my second year, in the first half of my 4th semester
  ```
  # Course Content
@@ -12,8 +13,7 @@
   ```
   # Technologies used for the implementation 
   ```terminal
-  No frameworks 
-  just
+  No frameworks
   html
   css
   javaScript
