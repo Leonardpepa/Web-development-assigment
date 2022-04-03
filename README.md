@@ -1,8 +1,6 @@
  ## Web Development Assigment University Of Macedonia
  ```terminal
- This Website is developed for my course Web Programming in University Of Macedonia
- lectured by instructor Kaskalis Theodoros
- on my second year, in the first half of my 4th semester
+This Website is an online shop to customize your own desktop. It's developed for my course named Web Programming in University Of Macedonia lectured by instructor Kaskalis Theodoros, in the first half of my 4th semester. Technologies used for the implemantation: html, css, javaScript, no frameworks, no backend. The photos and data for each product were found in online websites, the icons from fontawesome.com and the university icon from the website of the unversity.
  ```
  # Course Content
  ```terminal
@@ -17,12 +15,6 @@
   html
   css
   javaScript
-  ```
-  # Data
-  ```terminal
-  photos and data for each product was taken from the internet
-  icons from font awesome
-  university icon from the website of the unversity
   ```
   # Instalation
   ```terminal
